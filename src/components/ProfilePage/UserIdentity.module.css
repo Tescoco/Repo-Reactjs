@@ -1,0 +1,10 @@
+.card{
+    margin-left:"100px";
+    min-width:400 ;
+    max-width:645 ;
+    max-height:70 ;
+    position:"fixed";
+    background-color:'#151e29';
+    color:'rgb(206, 204, 204)',
+
+}

@@ -1,0 +1,52 @@
+.container{
+   position: absolute;
+   background-color:'blue';
+
+  
+}
+.container1{
+    animation:cards 4s linear 1;
+    z-index: -2;
+    display: flex;
+    align-self:center;
+    justify-content: center;
+    position: relative;
+   left: 50%;
+    width: 100vh;
+    opacity: 0;
+    background-color: inherit;
+}
+@media only screen and (max-width:500px){
+    .container1{
+        left: 0%;
+        position: relative;
+        width: 45vh;
+    }
+}
+
+@keyframes cards{
+    0%{
+        transform:translateY(0);
+        opacity:0;
+    }
+    20%{
+        transform:translateY(-20vh);
+        opacity:1;
+    }
+    40%{
+        transform:translateY(-40vh);
+        opacity:2;
+    }
+    60%{
+        transform:translateY(-60vh);
+        opacity:3;
+    }
+    80%{
+        transform:translateY(-80vh);
+        opacity:4;
+    }
+   100%{
+        transform:translateY(-100vh);
+        opacity:0;
+    }
+}

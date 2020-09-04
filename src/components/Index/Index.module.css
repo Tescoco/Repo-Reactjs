@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(246, 246, 246);
+    
+}
+.container{
+    margin: 4%;
+ }
+ .description{
+
+    background-color: rgba(212, 10, 10, 0.609);
+  }
+  .background{
+      height:1000vh
+  }
